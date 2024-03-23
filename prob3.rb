@@ -1,5 +1,5 @@
 def find_numbers(text)
-    pattern = /[0-9]+/
+    pattern = /[0-9]+\.?[0-9]+/
     text.scan(pattern)
 end
   
